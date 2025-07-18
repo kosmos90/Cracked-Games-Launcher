@@ -191,5 +191,30 @@ namespace Launcher
         {
             Process.Start("\\Spider-Man 3 - 5.61GB\\Spider-Man 3.exe");
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Process.Start("\\Stardew Valley - 668MB\\Stardew Valley.exe");
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            Process.Start("\\Stray - 6.21GB\\Stray.exe");
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            Process.Start("\\Teardown - 8.72GB\\teardown.exe");
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Process.Start("\\ULTRAKILL - 2.59GB\\ULTRAKILL.exe");
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            Process.Start("\\Undertale - 157MB\\Undertale.exe");
+        }
     }
 }

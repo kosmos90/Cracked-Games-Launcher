@@ -46,6 +46,11 @@
             button16 = new Button();
             button17 = new Button();
             button18 = new Button();
+            button19 = new Button();
+            button20 = new Button();
+            button21 = new Button();
+            button22 = new Button();
+            button23 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -132,7 +137,7 @@
             // 
             button9.Location = new Point(620, 47);
             button9.Name = "button9";
-            button9.Size = new Size(145, 29);
+            button9.Size = new Size(152, 29);
             button9.TabIndex = 8;
             button9.Text = "Garrys Mod";
             button9.UseVisualStyleBackColor = true;
@@ -230,11 +235,66 @@
             button18.UseVisualStyleBackColor = true;
             button18.Click += button18_Click;
             // 
+            // button19
+            // 
+            button19.Location = new Point(420, 117);
+            button19.Name = "button19";
+            button19.Size = new Size(124, 29);
+            button19.TabIndex = 18;
+            button19.Text = "Stardew Valley";
+            button19.UseVisualStyleBackColor = true;
+            button19.Click += button19_Click;
+            // 
+            // button20
+            // 
+            button20.Location = new Point(550, 117);
+            button20.Name = "button20";
+            button20.Size = new Size(94, 29);
+            button20.TabIndex = 19;
+            button20.Text = "Stray";
+            button20.UseVisualStyleBackColor = true;
+            button20.Click += button20_Click;
+            // 
+            // button21
+            // 
+            button21.Location = new Point(645, 117);
+            button21.Name = "button21";
+            button21.Size = new Size(127, 29);
+            button21.TabIndex = 20;
+            button21.Text = "Teardown";
+            button21.UseVisualStyleBackColor = true;
+            button21.Click += button21_Click;
+            // 
+            // button22
+            // 
+            button22.Location = new Point(12, 152);
+            button22.Name = "button22";
+            button22.Size = new Size(94, 29);
+            button22.TabIndex = 21;
+            button22.Text = "ULTRAKILL";
+            button22.UseVisualStyleBackColor = true;
+            button22.Click += button22_Click;
+            // 
+            // button23
+            // 
+            button23.Location = new Point(112, 152);
+            button23.Name = "button23";
+            button23.Size = new Size(94, 29);
+            button23.TabIndex = 22;
+            button23.Text = "Undertale";
+            button23.UseVisualStyleBackColor = true;
+            button23.Click += button23_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(777, 450);
+            ClientSize = new Size(782, 450);
+            Controls.Add(button23);
+            Controls.Add(button22);
+            Controls.Add(button21);
+            Controls.Add(button20);
+            Controls.Add(button19);
             Controls.Add(button18);
             Controls.Add(button17);
             Controls.Add(button16);
@@ -279,5 +339,10 @@
         private Button button16;
         private Button button17;
         private Button button18;
+        private Button button19;
+        private Button button20;
+        private Button button21;
+        private Button button22;
+        private Button button23;
     }
 }
