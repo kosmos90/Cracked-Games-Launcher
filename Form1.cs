@@ -8,6 +8,7 @@ using System.Security.Policy;
 using System.Windows.Forms;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
+// Last Modified: Saturday, July 19, 2025, 12:18:36 AM GMT+2
 
 namespace Launcher
 {
