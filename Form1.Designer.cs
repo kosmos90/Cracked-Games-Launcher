@@ -298,6 +298,7 @@
             button24.TabIndex = 23;
             button24.Text = "Open Source repository";
             button24.UseVisualStyleBackColor = false;
+            button24.Click += button24_Click;
             // 
             // button25
             // 
@@ -308,6 +309,7 @@
             button25.TabIndex = 24;
             button25.Text = "Update from github\r\n";
             button25.UseVisualStyleBackColor = false;
+            button25.Click += button25_Click;
             // 
             // button26
             // 
@@ -318,6 +320,7 @@
             button26.TabIndex = 25;
             button26.Text = "Exit";
             button26.UseVisualStyleBackColor = false;
+            button26.Click += button26_Click;
             // 
             // button27
             // 
@@ -328,6 +331,7 @@
             button27.TabIndex = 26;
             button27.Text = "Minimize";
             button27.UseVisualStyleBackColor = false;
+            button27.Click += button27_Click;
             // 
             // Form1
             // 
