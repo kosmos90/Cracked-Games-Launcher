@@ -6,7 +6,6 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Security.Policy;
 using System.Windows.Forms;
-using System.Xml;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Launcher
