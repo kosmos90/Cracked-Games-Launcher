@@ -17,23 +17,20 @@ namespace Launcher
         {
             InitializeComponent();
         }
-
-        // Helper method to run the app as admin (stub, implement as needed)
         private void RunAppAsAdmin()
         {
-            // Relaunch the application with admin rights if not already running as admin
             if (!IsRunningAsAdmin())
             {
                 var processInfo = new ProcessStartInfo
                 {
                     FileName = Application.ExecutablePath,
                     UseShellExecute = true,
-                    Verb = "runas" // This requests elevation
+                    Verb = "runas"
                 };
                 try
                 {
                     Process.Start(processInfo);
-                    Application.Exit(); // Close current instance
+                    Application.Exit();
                 }
                 catch (Exception ex)
                 {
@@ -42,7 +39,6 @@ namespace Launcher
             }
         }
 
-        // Helper method to check if running as admin
         private bool IsRunningAsAdmin()
         {
             using (var identity = System.Security.Principal.WindowsIdentity.GetCurrent())
@@ -55,7 +51,6 @@ namespace Launcher
         private void Form1_Load(object sender, EventArgs e)
         {
             RunAppAsAdmin();
-            // Set registry value to allow development without dev license
             try
             {
                 const string registryPath = @"SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock";
