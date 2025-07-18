@@ -51,6 +51,10 @@
             button21 = new Button();
             button22 = new Button();
             button23 = new Button();
+            button24 = new Button();
+            button25 = new Button();
+            button26 = new Button();
+            button27 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -196,7 +200,7 @@
             // button15
             // 
             button15.BackColor = Color.Red;
-            button15.Location = new Point(645, 409);
+            button15.Location = new Point(645, 196);
             button15.Name = "button15";
             button15.Size = new Size(120, 29);
             button15.TabIndex = 14;
@@ -207,11 +211,11 @@
             // button16
             // 
             button16.BackColor = Color.Red;
-            button16.Location = new Point(355, 409);
+            button16.Location = new Point(537, 196);
             button16.Name = "button16";
-            button16.Size = new Size(285, 29);
+            button16.Size = new Size(103, 29);
             button16.TabIndex = 15;
-            button16.Text = "Start Steam (required for some games\r\n)";
+            button16.Text = "Start Steam";
             button16.UseVisualStyleBackColor = false;
             button16.Click += button16_Click;
             // 
@@ -285,11 +289,55 @@
             button23.UseVisualStyleBackColor = true;
             button23.Click += button23_Click;
             // 
+            // button24
+            // 
+            button24.BackColor = Color.Red;
+            button24.Location = new Point(328, 196);
+            button24.Name = "button24";
+            button24.Size = new Size(203, 29);
+            button24.TabIndex = 23;
+            button24.Text = "Open Source repository";
+            button24.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            button25.BackColor = Color.Red;
+            button25.Location = new Point(145, 196);
+            button25.Name = "button25";
+            button25.Size = new Size(177, 29);
+            button25.TabIndex = 24;
+            button25.Text = "Update from github\r\n";
+            button25.UseVisualStyleBackColor = false;
+            // 
+            // button26
+            // 
+            button26.BackColor = Color.Red;
+            button26.Location = new Point(12, 196);
+            button26.Name = "button26";
+            button26.Size = new Size(43, 29);
+            button26.TabIndex = 25;
+            button26.Text = "Exit";
+            button26.UseVisualStyleBackColor = false;
+            // 
+            // button27
+            // 
+            button27.BackColor = Color.Red;
+            button27.Location = new Point(61, 196);
+            button27.Name = "button27";
+            button27.Size = new Size(81, 29);
+            button27.TabIndex = 26;
+            button27.Text = "Minimize";
+            button27.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(782, 450);
+            ClientSize = new Size(782, 238);
+            Controls.Add(button27);
+            Controls.Add(button26);
+            Controls.Add(button25);
+            Controls.Add(button24);
             Controls.Add(button23);
             Controls.Add(button22);
             Controls.Add(button21);
@@ -313,6 +361,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             Text = "Launcher";
             Load += Form1_Load;
@@ -344,5 +393,9 @@
         private Button button21;
         private Button button22;
         private Button button23;
+        private Button button24;
+        private Button button25;
+        private Button button26;
+        private Button button27;
     }
 }
